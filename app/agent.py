@@ -46,7 +46,7 @@ def get_weather(query: str) -> dict:
         A string with the simulated weather information for the queried location.
     """
     if "sf" in query.lower() or "san francisco" in query.lower():
-        return {"output": "It's 60 degrees and foggy."}
+        return {"output": "It's 70 degrees and foggy."}
     return {"output": "It's 90 degrees and sunny."}
 
 
