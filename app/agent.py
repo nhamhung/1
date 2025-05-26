@@ -47,7 +47,7 @@ def get_weather(query: str) -> dict:
     """
     if "sf" in query.lower() or "san francisco" in query.lower():
         return {"output": "It's 70 degrees and foggy."}
-    return {"output": "It's 90 degrees and sunny."}
+    return {"output": "It's 80 degrees and sunny."}
 
 
 # Configure tools available to the agent and live connection
